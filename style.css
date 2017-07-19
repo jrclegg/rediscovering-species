@@ -26,7 +26,19 @@ h1 {
 }
 
 
-.topnav a.active {
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.active {
     background-color: #4CAF50;
     color: white;
 }
