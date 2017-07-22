@@ -1,55 +1,38 @@
 
-
-h1 {
+.container {
 	text-align: center;
 }
 
-.topnav {
+.main-title {
+	text-align: center;
+}
+
+.navbar .navbar-inverse {
 	background-color: #333;
 	overflow: hidden;
 }
 
-.topnav a {
+.navbar .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
     padding: 15px 20px;
     font-size: 17px;
 
 }
 
-.topnav a:hover {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-}
-
 
 .active {
     background-color: #4CAF50;
     color: white;
-}
-
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+.lazarus-summary {
+	font-size: 18px;
 
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.sub-title {
-	text-align: center;
-
-}
-
-h2 {
-	text-align: center;
 }
 
 .solenodon {
@@ -72,3 +55,9 @@ h2 {
 	margin-left: 5px;
 
 }
+
+.lord-howe {
+	height: 100%;
+	width: 100%;
+}
+
