@@ -114,3 +114,25 @@
 	width: 100%;
 }
 
+/****** Leadbeater's Possum Section *****/
+
+.possum-summary, .possum-section {
+	padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+
+}
+
+.possum-summary {
+	padding-top: 80px;
+	display: none;
+
+}
+
+.possum {
+	height: 100%;
+	width: 100%;
+}
+
+

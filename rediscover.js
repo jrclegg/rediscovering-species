@@ -35,3 +35,12 @@ $(document).ready(function(){
     });
 });
 
+// Leadbeater's Possum Slide Toggle 
+
+$(document).ready(function(){
+    $(".possum-section").click(function(){
+        $(".possum-summary").slideToggle("slow");
+    });
+});
+
+
