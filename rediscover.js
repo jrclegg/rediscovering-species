@@ -4,3 +4,9 @@ $(document).ready(function(){
         $(".solenodon").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
