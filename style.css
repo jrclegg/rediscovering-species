@@ -93,3 +93,24 @@
 	width: 100%;
 }
 
+/***** Bridled Wallaby ******/
+
+.wallaby-summary, .wallaby-section {
+	padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+
+}
+
+.wallaby-summary {
+	padding-top: 80px;
+	display: none;
+
+}
+
+.wallaby {
+	height: 100%;
+	width: 100%;
+}
+
