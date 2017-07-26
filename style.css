@@ -135,4 +135,77 @@
 	width: 100%;
 }
 
+/******* Roosevelt's Muntjac Section ****/
+
+.muntjac-summary, .muntjac-section {
+	padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+.muntjac-summary {
+	padding-top: 80px;
+	display: none;
+
+}
+
+.muntjac {
+	height: 100%;
+	width: 100%;
+}
+
+/**** Rediscovered Reptiles Page *****/
+
+/*** Crested Gecko Section ****/
+
+.gecko {
+	height: 100%;
+	width: 100%;
+	
+}
+
+.gecko-summary {
+	display: none;
+}
+
+.gecko-button {
+	margin-top: 20px;
+}
+
+/**** Terror Skink Section ****/
+
+.skink {
+	height: 100%;
+	width: 100%;
+}
+
+.skink-summary {
+	display: none;
+}
+
+.skink-button {
+	margin-top: 20px;
+}
+
+/**** La Gomera Giant Lizard ****/
+
+.gomera {
+	height: 100%;
+	width: 100%;
+}
+
+.gomera-summary {
+	display: none;
+}
+
+.gomera-button {
+	margin-top: 20px;
+}
+
+
+
+
+
+
 

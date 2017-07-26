@@ -43,4 +43,42 @@ $(document).ready(function(){
     });
 });
 
+// Roosevelt's Muntjac Slide Toggle 
+
+$(document).ready(function(){
+    $(".muntjac-section").click(function(){
+        $(".muntjac-summary").slideToggle("slow");
+    });
+});
+
+// Rediscovered Reptiles Page // 
+
+// Crested Gecko //
+
+$(document).ready(function (){
+	$("button").click(function(){
+		$(".gecko-summary").fadeToggle();
+	});
+
+});
+
+// Terror Skink // 
+
+$(document).ready(function (){
+	$("button").click(function(){
+		$(".skink-summary").fadeToggle();
+	});
+
+});
+
+// Gomera Giant Lizard
+
+$(document).ready(function (){
+	$("button").click(function(){
+		$(".gomera-summary").fadeToggle();
+	});
+
+});
+
+
 
