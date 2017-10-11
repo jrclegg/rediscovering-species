@@ -3,9 +3,14 @@
 // Solenodon Toggle Click
 
 $(document).ready(function(){ 
-	$(".solenodon").hide();
     $("button").click(function(){
-        $(".solenodon").toggle();
+            $(".solenodon").toggle();
+
+        if ($(this).text() == "Hide the Solenodon!") {
+            $(this).text("Rediscover the Solenodon!"); 
+        } else {
+            $(this).text("Hide the Solenodon!"); 
+        }; 
     });
 });
 
