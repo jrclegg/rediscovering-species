@@ -4,6 +4,11 @@
 
 $(document).ready(function(){ 
     $("button").click(function(){
+       
+            $('html,body').animate({
+                scrollTop: $(document).height()/2,
+            }, 1000);
+      
             $(".solenodon").toggle();
 
         if ($(this).text() == "Hide the Solenodon!") {
