@@ -3,14 +3,11 @@
 // Solenodon Toggle Click
 
 $(document).ready(function(){ 
-    $("button").click(function(){
-       
+    $(".solenodon-button").click(function(){ 
+        $(".solenodon").toggle();
             $('html,body').animate({
                 scrollTop: $(document).height()/2,
             }, 1000);
-      
-            $(".solenodon").toggle();
-
         if ($(this).text() == "Hide the Solenodon!") {
             $(this).text("Rediscover the Solenodon!"); 
         } else {
@@ -24,40 +21,55 @@ $(document).ready(function(){
 // Chacoan Peccary Slide Toggle //
 
 $(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
+    $(".peccary-button").click(function(){
+        $(".peccary-summary").slideToggle("slow");
+            $('html,body').animate({
+                scrollTop: $(document).height()/5.82,
+            }, 1000);
     });
 });
 
 // Bavarian Pine Vole Slide Toggle //
 
 $(document).ready(function(){
-    $(".vole-section").click(function(){
+    $(".vole-button").click(function(){
         $(".vole-summary").slideToggle("slow");
+            $('html,body').animate({
+                scrollTop: $(document).height()/2.85,
+            }, 1000);
     });
 });
 
 // Wallaby Section Slide Toggle
 
 $(document).ready(function(){
-    $(".wallaby-section").click(function(){
+    $(".wallaby-button").click(function(){
         $(".wallaby-summary").slideToggle("slow");
+            $('html,body').animate({
+                scrollTop: $(document).height()/1.88,
+            }, 1000);
     });
 });
 
 // Leadbeater's Possum Slide Toggle 
 
 $(document).ready(function(){
-    $(".possum-section").click(function(){
+    $(".possum-button").click(function(){
         $(".possum-summary").slideToggle("slow");
+            $('html,body').animate({
+                scrollTop: $(document).height()/1.41,
+            }, 1000);
     });
 });
 
 // Roosevelt's Muntjac Slide Toggle 
 
 $(document).ready(function(){
-    $(".muntjac-section").click(function(){
+    $(".muntjac-button").click(function(){
         $(".muntjac-summary").slideToggle("slow");
+            $('html,body').animate({
+                scrollTop: $(document).height()/1.05,
+            }, 1000);
     });
 });
 
@@ -86,6 +98,3 @@ $(document).ready(function (){
 		$(".gomera-summary").fadeToggle();
 	});
 });
-
-
-

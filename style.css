@@ -1,7 +1,9 @@
 /***** Index.html *****/
 .container {
 	text-align: center;
-	background-color: #339CFF;
+	background-color: #909090;
+	color: white;
+	font-family: sans-serif;
 }
 
 .main-title {
@@ -10,15 +12,32 @@
 
 .navbar .navbar-inverse {
 	background-color: #333;
+	margin-left: 5px;
 	overflow: hidden;
 }
 
+ul.nav.navbar-nav li {
+	border-color: white;
+	color: white;
+	margin-right: 60px;
+}
+
 .active {
-    background-color: #4CAF50;
+    background-color: white;
     color: white;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+	.navbar-nav li a {
+		margin-left: 40px;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		margin-left: 130px;
+		margin-top: 10px;
+	}
 }
 
 /** Lazarus Introduction **/
@@ -34,6 +53,14 @@
 	width: 100%;
 }
 
+.solenodon-summary {
+	font-size: 16px;
+}
+
+img.solenodon {
+	margin-top: 20px;
+}
+
 /**** Coelacanth section ***/
 
 #coelacanth {
@@ -43,7 +70,7 @@
 
 .left-image a {
 	margin-left: 5px;
-
+	color: black;
 }
 /*** Omura's Whale section ***/
 
@@ -52,32 +79,47 @@
 	width: 91%;
 }
 
+.right-image a {
+	color: black;
+}
 
-/************ rediscoveredmammals.html ********/
+
+/************ rediscovered mammals.html ********/
+
+button.btn.btn-default button#solenodon {
+	padding: 10px;
+	margin: 10px;
+	border: solid;
+	border-color: lightgray;
+}
 
 /** Chacoan Peccary ***/
 
-#panel, #flip {
+.peccary-summary, .peccary-button {
     padding: 5px;
     text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
 }
 
-#panel {
+.peccary-summary {
     display: none;
     padding-top: 80px;
-
 }
 
-.peccary {
+.peccary-image {
 	height: 100%;
 	width: 100%;
 }
 
+div.peccary-summary {
+	background-color: #909090;
+}
+
+
 /*** Bavarian Pine Vole *****/
 
-.vole-summary, .vole-section {
+.vole-summary, .vole-button {
     padding: 5px;
     text-align: center;
     background-color: #e5eecc;
@@ -89,56 +131,66 @@
 	display: none;
 }
 
-.vole {
+.vole-image {
 	height: 100%;
 	width: 100%;
 }
 
+div.vole-summary {
+	background-color: #909090;
+}
+
+
 /***** Bridled Wallaby ******/
 
-.wallaby-summary, .wallaby-section {
+.wallaby-summary, .wallaby-button {
 	padding: 5px;
     text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
-
 }
 
 .wallaby-summary {
 	padding-top: 80px;
 	display: none;
-
 }
 
-.wallaby {
+.wallaby-image {
 	height: 100%;
 	width: 100%;
 }
 
+div.wallaby-summary {
+	background-color: #909090;
+}
+
 /****** Leadbeater's Possum Section *****/
 
-.possum-summary, .possum-section {
+.possum-summary, .possum-button {
 	padding: 5px;
     text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
-
 }
 
 .possum-summary {
 	padding-top: 80px;
 	display: none;
-
 }
 
-.possum {
+.possum-image {
 	height: 100%;
 	width: 100%;
 }
 
+div.possum-summary {
+	background-color: #909090;
+}
+
+
 /******* Roosevelt's Muntjac Section ****/
 
-.muntjac-summary, .muntjac-section {
+.muntjac-summary, .muntjac-button {
 	padding: 5px;
     text-align: center;
     background-color: #e5eecc;
@@ -148,22 +200,25 @@
 .muntjac-summary {
 	padding-top: 80px;
 	display: none;
-
 }
 
-.muntjac {
+.muntjac-image {
 	height: 100%;
 	width: 100%;
 }
+
+div.muntjac-summary {
+	background-color: #909090;
+}
+
 
 /**** Rediscovered Reptiles Page *****/
 
 /*** Crested Gecko Section ****/
 
-.gecko {
+.gecko-image {
 	height: 100%;
 	width: 100%;
-	
 }
 
 .gecko-summary {
@@ -176,7 +231,7 @@
 
 /**** Terror Skink Section ****/
 
-.skink {
+.skink-image {
 	height: 100%;
 	width: 100%;
 }
@@ -191,7 +246,7 @@
 
 /**** La Gomera Giant Lizard ****/
 
-.gomera {
+.gomera-image {
 	height: 100%;
 	width: 100%;
 }
